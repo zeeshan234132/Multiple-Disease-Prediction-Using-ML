@@ -6,9 +6,9 @@ from streamlit_option_menu import option_menu
 st.set_page_config(page_title='Prediction of Disease Outbreaks', layout='wide',page_icon='🧑‍⚕️')
 
 #Importing saved ML models
-diabetes_model = pickle.load(open(f"Saved Models\diabetes_model.sav","rb"))
-heart_model = pickle.load(open(f"Saved Models\heart_model.sav","rb"))
-parkinson_model = pickle.load(open(f"Saved Models\parkinson_model.sav","rb"))
+diabetes_model = pickle.load(open(f"Saved Models/diabetes_model.sav","rb"))
+heart_model = pickle.load(open(f"Saved Models/heart_model.sav","rb"))
+parkinson_model = pickle.load(open(f"Saved Models/parkinson_model.sav","rb"))
 
 # sidebar for navigation
 with st.sidebar:
